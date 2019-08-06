@@ -1,0 +1,13 @@
+(myapp)debian@hostname:~/myapp$ pip install django
+Downloading/unpacking django
+  Downloading Django-1.8-py2.py3-none-any.whl (6.2MB): 6.2MB downloaded
+Installing collected packages: django
+Successfully installed django
+Cleaning up...
+Test django package installation:
+(myapp)debian@hostname:~/myapp$ python -c "import django; 
+print(django.get_version())"
+1.8
+All is working as expected. Once you finish your work with virtualenv environment you can exit by using deactivate function provided within bin/activate script:
+(myapp)debian@hostname:~/myapp$ deactivate 
+debian@hostname:~/myapp$ 
