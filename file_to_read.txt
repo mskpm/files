@@ -11,3 +11,4 @@ print(django.get_version())"
 All is working as expected. Once you finish your work with virtualenv environment you can exit by using deactivate function provided within bin/activate script:
 (myapp)debian@hostname:~/myapp$ deactivate 
 debian@hostname:~/myapp$ 
+dodane s³owo

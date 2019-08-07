@@ -24,6 +24,8 @@
     <Compile Include="files.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cats.txt" />
+    <Content Include="dogs.txt" />
     <Content Include="file_to_read.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
